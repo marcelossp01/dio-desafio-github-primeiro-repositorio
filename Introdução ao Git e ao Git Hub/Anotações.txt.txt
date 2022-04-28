@@ -1,6 +1,6 @@
-link Markdown: https://www.markdownguide.org/basic-syntax/
+# link Markdown: https://www.markdownguide.org/basic-syntax/
 
-ATALHOS DO AMBIENTE GIT
+# ATALHOS DO AMBIENTE GIT
 ls -a: Pesquisar arquivos ocultos;
 mkdir: Para criar uma pasta;
 mv: Para mover arquivos – “mv o nome do arquivo ./o nome da pasta”;
@@ -14,13 +14,13 @@ git config –list: Para verificar como está onfigurado seu usuário no ambient
 git commit -m “resolve conflito”: Para corrigir o conflito com outro usuário no mesmo arquivo;
 git clone: Para clonar um arquivo no ambiente externo para o ambiente interno.
 
-1 ADICIONAR NA AREA STAGED
-echo > README.md: Para subir o arquivo no site GIT HUB
-git add: (colocar o nome do arquivo e pasta caso haja)
-git commit -m “cria pasta para receitas, move arquivo para receitas”
-git add *: Para adicionar na pasta, tudo que foi modificar ou criado
+# 1 ADICIONAR NA AREA STAGED
+echo > README.md: Para subir o arquivo no site GIT HUB;
+git add: (colocar o nome do arquivo e pasta caso haja);
+git commit -m “cria pasta para receitas, move arquivo para receitas”;
+git add *: Para adicionar na pasta, tudo que foi modificar ou criado.
 
-2 CRIAR O GIT COMMIT
+# 2 CRIAR O GIT COMMIT
 git commit -m "adiciona index"
 No site entrar em: seus repositórios – novo (colocar um nome no arquivo)
 No ambiente GIT, colocar: git remote add origin https://git@github.com:marcelossp01/Livro_Receitas.git
